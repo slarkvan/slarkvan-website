@@ -99,25 +99,25 @@ export const getBlogPost = (slug: string) =>
     slug,
   })
 
-export const getSettingsQuery = () =>
-  groq`
+export const getSettingsQuery = () => groq`
   *[_type == "settings"][0] {
-    "projects": projects[]->{
+    "projects": coalesce(projects[]->{
       _id,
       name,
       url,
       description,
       icon
-    },
-    "heroPhotos": heroPhotos[].asset->url,
-    "resume": resume[]{
+    }, []),
+    "heroPhotos": coalesce(heroPhotos[].asset->url, []),
+    "resume": coalesce(resume[]{
       company,
       title,
       start,
       end,
       "logo": logo.asset->url
-    }
-}`
+    }, [])
+  }`
+
 export const getSettings = () =>
   client.fetch<{
     projects: Project[] | null
