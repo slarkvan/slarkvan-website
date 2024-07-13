@@ -10,7 +10,7 @@ import { Container } from '~/components/ui/Container'
 import { getSettings } from '~/sanity/queries'
 
 export default async function BlogHomePage() {
-  const settings = await getSettings()
+  const settings = await getSettings() ?? {};
 
   return (
     <>
