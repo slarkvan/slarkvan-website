@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 
 import { BlogPosts } from '~/app/(main)/blog/BlogPosts'
