@@ -81,17 +81,17 @@ export function Headline() {
         }}
       >
         <Balancer>
-          <div>✨ 我是 slarkvan。独立开发者</div>
-          <div>
+          <span className="block">✨ 我是 slarkvan。独立开发者</span>
+          <span className="block">
             📐 作品:{' '}
             <PeekabooLink href="https://syncwise.xyz">Syncwise</PeekabooLink> &{' '}
             <PeekabooLink href="https://imgsaver.net">imgsaver</PeekabooLink>
-          </div>
-          <div> 🚀 热爱探索和创造</div>
-          <div>
+          </span>
+          <span className="block"> 🚀 热爱探索和创造</span>
+          <span>
             <PeekabooLink href="https://x.com/slarkvan">@slarkvan</PeekabooLink>
-          </div>
-          <div>🏃‍♂️ Keep moving, Don&apos;t settle.</div>
+          </span>
+          <span className="block">🏃‍♂️ Keep moving, Don&apos;t settle.</span>
         </Balancer>
       </motion.p>
       <motion.div
