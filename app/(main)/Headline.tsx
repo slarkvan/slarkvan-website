@@ -81,7 +81,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          <span className="block">✨ 我是 slarkvan。独立开发者</span>
+          <span className="block">✨ Hey, I am slarkvan. 一名独立开发者</span>
           <span className="block">
             📐 作品:{' '}
             <PeekabooLink href="https://syncwise.xyz">Syncwise</PeekabooLink> &{' '}
