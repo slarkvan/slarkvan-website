@@ -30,7 +30,7 @@ export default function ProjectsPage() {
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           多年来，我一直在做各种各样的小项目，有<b>开源</b>的，有<b>实验</b>
           的，也有 <b>just for fun </b>
-          的，下面就是我筛选出来我觉得还不错的项目合集，也是我在技术领域中尝试和探索的最好见证。
+          的，折腾是我的爱好。
         </p>
       </header>
       <div className="mt-16 sm:mt-20">

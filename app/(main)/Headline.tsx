@@ -63,9 +63,10 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
+        <Developer />
+        {/* ，<Designer />，
         <span className="block h-2" />
-        <OCD />，<Founder />
+        <OCD />，<Founder /> */}
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,10 +81,17 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          <div>✨ 独立开发者</div>
+          <div>
+            📐 作品:{' '}
+            <PeekabooLink href="https://syncwise.xyz">Syncwise</PeekabooLink> &{' '}
+            <PeekabooLink href="https://imgsaver.net">imgsaver</PeekabooLink>
+          </div>
+          <div> 🚀 热爱探索和创造</div>
+          <div>
+            <PeekabooLink href="https://x.com/slarkvan">@slarkvan</PeekabooLink>
+          </div>
+          <div>🏃‍♂️ Keep moving, Don&apos;t settle.</div>
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +107,33 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://x.com/slarkvan"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
+          href="https://www.youtube.com/@BeautyVision401"
           aria-label="我的 YouTube"
           platform="youtube"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://cali.so/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
-        />
+        /> */}
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/slarkvan"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
+        {/* <SocialLink
           href="https://cali.so/tg"
           aria-label="我的 Telegram"
           platform="telegram"
-        />
+        /> */}
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:moretaiupupup@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />
