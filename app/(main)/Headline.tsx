@@ -117,7 +117,7 @@ export function Headline() {
           platform="youtube"
         />
         {/* <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://slarkvan.com/bilibili"
           aria-label="我的 Bilibili"
           platform="bilibili"
         /> */}
@@ -127,7 +127,7 @@ export function Headline() {
           platform="github"
         />
         {/* <SocialLink
-          href="https://cali.so/tg"
+          href="https://slarkvan.com/tg"
           aria-label="我的 Telegram"
           platform="telegram"
         /> */}
